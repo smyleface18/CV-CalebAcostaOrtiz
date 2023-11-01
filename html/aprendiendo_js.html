@@ -6,7 +6,7 @@
     <title>aprendiendo js</title>
     
 </head>
-<body>
+<body onload="load_page()">
     
     <script>
         // alert("pro player");
@@ -18,6 +18,19 @@
     <lable for="" id="box_one"></lable>
     <label for="" id="box_two"></label>
 
+    <input type="text" id="box_onblur" onblur="box_onblur()" placeholder="Escriba algo" size="30">
+    <button id="change_color">CAMBIAR COLOR</button>
+
+    <form id="form_register">
+        <label for="nombres">Nombres:</label>
+        <input type="text" id="nombres" size="30" placeholder="ingrese nombres">
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" size="30" placeholder="Ingrese apellidos">
+        <br>
+        <button type="submit">REGISTRARSE</button>
+        <button type="reset">LIMPIAR</button>
+    </form>
     <script src="../js/functions.js"></script>
 </body>
 </html>
