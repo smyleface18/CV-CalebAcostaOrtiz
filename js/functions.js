@@ -68,10 +68,10 @@ let array_text = ["Lunes","Martes","Miercoles","Jueves","Viernes","Sabado","Domi
 let array_mix = [1,"as",2,true];
 let array_mul = [
 
-    {name:"Caleb",last_name:"Acosta",age:"18"},
-    {name:"pedro",last_name:"ortiz",age:"23"},
-    {name:"juan",last_name:"duarte",age:"3"},
-    {name:"pablo",last_name:"martinez",age:"12"}
+    {name:"Caleb",last_name:"Acosta",age:18},
+    {name:"pedro",last_name:"ortiz",age:23},
+    {name:"juan",last_name:"duarte",age:3},
+    {name:"pablo",last_name:"martinez",age:12}
 ];
 
 //****************Operadores Basicos 
@@ -172,20 +172,6 @@ do {
 
 //        FUNCIONES Y EVENTOS
 
-//function load_page(){
-  //  alert("bienvenido");
-    //ejm2();
-//}
-
-
-function ejm (){
-    alert("Bienvenido");
-}
-
-function ejm2() {
-    alert("Bienvendo2");
-}
-
 function box_onblur(){
     const box_onblur = document.querySelector("#box_onblur");
     if(box_onblur.value.length<=2){
@@ -221,3 +207,25 @@ form.addEventListener("submit", name_event =>{
     }
     validation.innerText= info;
 })
+
+
+function load_page(){
+    document.getElementById("nombres").focus();
+    document.getElementById("apellidos").disabled = true;
+    let date = new Date();
+    console.log(date.getMonth()+1);
+    for(let i=0;i<array_mul.length;i++){
+        console.log(array_mul[i].name);
+    }
+ }
+ 
+function validate (){
+    let nombre = document.getElementById("nombres").value;
+    console.log(nombres);
+    alert(nombre.split());
+    if (nombre.length > 2){
+        document.getElementById("apellidos").disabled = false;
+        document.getElementById("apellidos").focus();
+        document.getElementById("nombres").value = "";
+    }
+}
