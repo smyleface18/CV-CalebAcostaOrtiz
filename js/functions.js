@@ -33,7 +33,7 @@ document.getElementById("box_one").innerHTML = "<h1>Caleb Acosta</h1>";
 //document.getElementById("box_Two").innerText = "<h1>Caleb Acosta</h1>";
 
 //librerias 
-Swal.fire({
+/*Swal.fire({
 
     icon:'info',
     title:'caleb acosta',
@@ -44,6 +44,7 @@ Swal.fire({
     position:'center-end'
 }
   )
+  */
 
 
 //  Swal.fire(name)
@@ -96,13 +97,13 @@ console.log("Division = "+resta);
 var modulo = number % number_two;
 console.log("modulo = "+modulo);
 
-console.log(
+/*console.log(
     "suma = "+ suma+ "\n"+ 
     "resta = "+resta+ "\n"+ 
     "multiplicacion = "+ multiplicacion+ "\n"+ 
     "Division = "+resta+ "\n"+ 
     "modulo = "+modulo
-);
+);*/
 
 var respuesta =
 "suma = "+ suma+ "<br>"+ 
@@ -111,15 +112,15 @@ var respuesta =
 "Division = "+resta+"<br>"+ 
 "modulo = "+modulo
 
-Swal.fire(respuesta);
+//Swal.fire(respuesta);
 
-Swal.fire({
+/*Swal.fire({
     showConfirmButton: false,
     backgraund: '#000',
     icon: 'success',
     title:'Respuesta',
     html:respuesta
-});
+});*/
 
 // OPERADORES LOGICOS
 // AND && con if
@@ -222,10 +223,12 @@ function load_page(){
 function validate (){
     let nombre = document.getElementById("nombres").value;
     console.log(nombres);
-    alert(nombre.split());
+   // alert(nombre.split());
     if (nombre.length > 2){
         document.getElementById("apellidos").disabled = false;
         document.getElementById("apellidos").focus();
         document.getElementById("nombres").value = "";
     }
 }
+
+
