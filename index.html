@@ -5,33 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caleb Acosta</title>
-    <link rel="shortcut icon" href="icons/Agregar-un-título.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/iconDev.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 </head>
 <body>
-    <!-- front page -->
+
     <header class="person">
         <nav class="nav container">
             <div class="nav_logo">
                 <h2 class="nav_title">Caleb Acosta</h2>
             </div>
-            <!-- ul.nav_link.nav_link_menu>(li.nav_items>a.nav_links{Texto})*4 -->
+
             <ul class="nav_link nav_link_menu">
-                <!-- <li class="nav_items">
-                    <a href="#" class="nav_links">Inicio</a>
-                </li> -->
+
                 <li class="nav_items">
-                    <a href="#about" class="nav_links">Acerca de</a>
+                    <a href="#yo" class="nav_links">Quien Soy?</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#contact" class="nav_links">Contacto</a>
+                    <a href="#conocimiento" class="nav_links">Que se?</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#references" class="nav_links">Referencias</a>
+                    <a href="#questions" class="nav_links">Más sobre mi</a>
                 </li>
                 <li class="nav_items">
-                    <a href="#questions" class="nav_links">Preguntas</a>
+                    <a href="#proyectos" class="nav_links">Proyectos</a>
                 </li>
                 <li class="nav_items">
                     <a href="#social_media" class="nav_links">Redes Sociales</a>
@@ -50,55 +49,18 @@
         </section>
     </header>
 
-    <!-- options -->
-    <main>
-        <section class="container about" id="about">
-            <h2 class="subtitle">SKILLS.</h2>
-            <p class="about_paragraph">¡Hola! Soy un programador junior apasionado por la tecnología y ansioso por aprender
-                 y crecer en mi carrera. Me encanta trabajar en equipo y estoy emocionado de contribuir a proyectos emocionantes 
-                 y desafiantes. Tengo experiencia en lenguajes de programación como Html, Css, Java Script, Java y C++, y estoy interesado en aprender
-                  más sobre tecnologías emergentes como la inteligencia artificial y el aprendizaje automático. Si estás buscando un
-                   programador junior entusiasta y dedicado, ¡no dudes en contactarme!</p>
 
-            <div class="about_main">
-                <!-- (article.about_icons>img.about_icon+h3.about_title+p.about_paragraph)*3 -->
-                <article class="about_icons">
-                    <img src="icons/html-5.png" alt="Icon" class="about_icon">
-                    <h3 class="about_title">HTML</h3>
-                    <p class="about_paragraph"></p>
-                </article>
-                <article class="about_icons">
-                    <img src="icons/icons8-css.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">CSS</h3>
-                    <p class="about_paragraph"></p>
-                </article>
-                <article class="about_icons">
-                    <img src="icons/icons8-js.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">JAVA SCRIPT</SCRipt></h3>
-                    <p class="about_paragraph"></p>
-                </article>
-                <article class="about_icons">
-                    <img src="icons/icons8-java.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">JAVA</h3>
-                    <p class="about_paragraph"></p>
-                </article>
-                <article class="about_icons">
-                    <img src="icons/icons8-c.svg" alt="Icon" class="about_icon">
-                    <h3 class="about_title">C++</h3>
-                    <p class="about_paragraph"></p>
-                </article>
-            </div>
-        </section>
-        
-        <section class="options" id="contact">
+    <main>
+
+        <section class="options" id="yo" >
             <div class="options_container container">
                 <div class="options_texts">
                     <h2 class="subtitle">Quien Soy?</h2>
                     <p class="options_paragraph">Mi Nombre es Caleb, nací el 18 de agosto del 2004 en el municipio de Ocaña, Norte de Santender.
                         Mi familia esta conformada por mis dos padres y tres hermanos, viví mi infancia en el municipio de el Carmen, Norte de Santander
-                        , actualmente mi lugar de residencia es Ocaña. Tengo estudios de nivel bachillerte tecnico en sistemas el cual curse desde sexto
+                        , actualmente mi lugar de residencia es Bogota, capital de Colombia. Tengo estudios de nivel bachillerte tecnico en sistemas el cual curse desde sexto
                         grado hasta culminar en once grado en el colegio tecnico Instituto Tecnico Industrial Lucio Pabon Nuñez del municipio de Ocaña, actualmente 
-                        curso el segundo semestre en ingenieria en sistemas de la universidad Francisco de Paula Santander Ocaña.
+                        estoy estudiando ingenieria en sistemas de la universidad Francisco de Paula Santander Ocaña.
                     </p>
                 </div>
                 <figure class="options_picture">
@@ -107,53 +69,74 @@
             </div>
         </section>
 
-        <section class="testimony" id="references">
-            <div class="testimony_container container">
-                
-                <img src="icons/leftarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="before">                
-                
-                <section class="testimony_body testimony_body--show" data-id="1">
-                    <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Luis Fernando Acosta Cepeda
-                            <span class="testimony_course">Padre de Caleb</span>
-                        </h2>
-                        <p class="testimony__review">Estoy increíblemente orgulloso de mi hijo. Su dedicación, ética de trabajo y
-                            habilidades excepcionales siempre han brillado en todo lo que emprende. Desde joven, demostró una notable
-                             capacidad para aprender y adaptarse, superando cada desafío con determinación. Su compromiso con la
-                              excelencia y su actitud positiva son cualidades que lo distinguen. Siempre se esfuerza por alcanzar
-                               sus metas con integridad y empatía, destacando no solo como un profesional competente, sino también 
-                               como una persona excepcionalmente bondadosa y respetuosa. Estoy seguro de que su enfoque dedicado y
-                                su naturaleza ética lo convertirán en un valioso activo para cualquier equipo de trabajo.</p>
-                    </div>
-                    <figure class="testimony_picture">
-                        <img src="https://scontent.feoh2-1.fna.fbcdn.net/v/t39.30808-6/309436630_1024958164915647_7681634714866082197_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=swsCwt4tTAgAX9EbO5f&_nc_ht=scontent.feoh2-1.fna&oh=00_AfD7vh-asBzDFhNCufN93leHaEX9AV0RFzw_wqMMUtivag&oe=6569F7C1" alt="Foto Persona" class="testimony_img">
-                    </figure>
-                </section>
-                
-                <section class="testimony_body" data-id="2">
-                    <div class="testimony_texts">
-                        <h2 class="subtitle">Mi nombre es Martha Becerra
-                            <span class="testimony_course">estudiante de UFPSO</span>
-                        </h2>
-                        <p>Mi experiencia compartiendo clases y proyectos con mi compañero ha sido verdaderamente enriquecedora.
-                             Su colaboración inquebrantable, habilidades comunicativas y capacidad para trabajar en equipo han hecho
-                              una diferencia significativa en nuestro entorno académico. Siempre se muestra dispuesto a ayudar a los
-                               demás, aportando no solo conocimientos sólidos, sino también una actitud positiva que motiva a todo el
-                                grupo. Su capacidad para abordar desafíos con creatividad y su ética de trabajo incansable son cualidades
-                                 que admiro profundamente. Estoy convencida de que estas características, junto con su amabilidad innata,
-                                  lo convertirán en un colaborador excepcional y en una adición valiosa para cualquier equipo laboral.</p>
-                    </div>
-                    <figure class="testimony_picture">
-                        <img src="https://scontent.feoh2-1.fna.fbcdn.net/v/t1.6435-9/118170036_2702008806682117_3550141269639882442_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=dd63ad&_nc_ohc=QG7Eyy5JKYcAX9Ui71w&_nc_ht=scontent.feoh2-1.fna&oh=00_AfBWMnAWUZrRKQvdaxhQFdwV1B_PScnXSR7D7-nC94LUmA&oe=658CCDAF" alt="Foto Persona" class="testimony_img">
-                    </figure>
-                </section>
 
- 
-
-                <img src="icons/rightarrow.svg" alt="Icon Flecha" class="testimony_arrow" id="next">                
-
+        <section class="about" id="conocimiento">
+            <div class="container" id="about">
+                <h2 class="subtitle">SKILLS.</h2>
+                <p class="about_paragraph">Soy un programador junior apasionado por la tecnología, ansioso por aprender
+                     y crecer en mi carrera. Me encanta trabajar en equipo y estoy emocionado de contribuir a proyectos emocionantes 
+                     y desafiantes. Tengo un buen manejo de tecnologias como Html, Css, Java Script, Java y C++, frameworks como vue y tailwind. Estoy interesado en aprender
+                      más sobre estas tecnologias y adquirir gran experiencia en estas mismas. Si estás buscando un
+                       programador junior entusiasta y dedicado, ¡no dudes en contactarme!</p>
+    
+                <div class="about_main">
+    
+                    <article class="about_icons">
+                        <img src="icons/html-5.png" alt="Icon" class="about_icon">
+                        <h3 class="about_title">HTML</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <img src="icons/icons8-css.svg" alt="Icon" class="about_icon">
+                        <h3 class="about_title">CSS</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <img src="icons/icons8-js.svg" alt="Icon" class="about_icon">
+                        <h3 class="about_title">JAVA SCRIPT</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <img src="icons/icons8-java.svg" alt="Icon" class="about_icon">
+                        <h3 class="about_title">JAVA</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <img src="icons/icons8-c.svg" alt="Icon" class="about_icon">
+                        <h3 class="about_title">C++</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <svg class="about_icon" xmlns="http://www.w3.org/2000/svg" width="2.301em" height="2.3em" viewBox="0 0 256 255"><defs><linearGradient id="logosPython0" x1="12.959%" x2="79.639%" y1="12.039%" y2="78.201%"><stop offset="0%" stop-color="#387eb8"/><stop offset="100%" stop-color="#366994"/></linearGradient><linearGradient id="logosPython1" x1="19.128%" x2="90.742%" y1="20.579%" y2="88.429%"><stop offset="0%" stop-color="#ffe052"/><stop offset="100%" stop-color="#ffc331"/></linearGradient></defs><path fill="url(#logosPython0)" d="M126.916.072c-64.832 0-60.784 28.115-60.784 28.115l.072 29.128h61.868v8.745H41.631S.145 61.355.145 126.77c0 65.417 36.21 63.097 36.21 63.097h21.61v-30.356s-1.165-36.21 35.632-36.21h61.362s34.475.557 34.475-33.319V33.97S194.67.072 126.916.072M92.802 19.66a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.13"/><path fill="url(#logosPython1)" d="M128.757 254.126c64.832 0 60.784-28.115 60.784-28.115l-.072-29.127H127.6v-8.745h86.441s41.486 4.705 41.486-60.712c0-65.416-36.21-63.096-36.21-63.096h-21.61v30.355s1.165 36.21-35.632 36.21h-61.362s-34.475-.557-34.475 33.32v56.013s-5.235 33.897 62.518 33.897m34.114-19.586a11.12 11.12 0 0 1-11.13-11.13a11.12 11.12 0 0 1 11.13-11.131a11.12 11.12 0 0 1 11.13 11.13a11.12 11.12 0 0 1-11.13 11.13"/></svg>
+                        <h3 class="about_title">Python</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <svg class="about_icon" xmlns="http://www.w3.org/2000/svg" width="2.501em" height="2.501em" viewBox="0 0 128 128"><path fill="#38bdf8" d="M64.004 25.602c-17.067 0-27.73 8.53-32 25.597c6.398-8.531 13.867-11.73 22.398-9.597c4.871 1.214 8.352 4.746 12.207 8.66C72.883 56.629 80.145 64 96.004 64c17.066 0 27.73-8.531 32-25.602q-9.6 12.803-22.399 9.602c-4.87-1.215-8.347-4.746-12.207-8.66c-6.27-6.367-13.53-13.738-29.394-13.738M32.004 64c-17.066 0-27.73 8.531-32 25.602Q9.603 76.799 22.402 80c4.871 1.215 8.352 4.746 12.207 8.66c6.274 6.367 13.536 13.738 29.395 13.738c17.066 0 27.73-8.53 32-25.597q-9.6 12.797-22.399 9.597c-4.87-1.214-8.347-4.746-12.207-8.66C55.128 71.371 47.868 64 32.004 64m0 0"/></svg>
+                        <h3 class="about_title">Tailwind CSS</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <svg class="about_icon" xmlns="http://www.w3.org/2000/svg" width="2.516em" height="2.5em" viewBox="0 0 256 221"><path fill="#41b883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0z"/><path fill="#41b883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0z"/><path fill="#35495e" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0z"/></svg>
+                        <h3 class="about_title">Vue.js</h3>
+    
+                    </article>
+                    <article class="about_icons">
+                        <svg class="about_icon" xmlns="http://www.w3.org/2000/svg" width="2.7em" height="2.7em" viewBox="0 0 256 366"><path d="M182.022 9.147c2.982 3.702 4.502 8.697 7.543 18.687L256 246.074a276.5 276.5 0 0 0-79.426-26.891L133.318 73.008a5.63 5.63 0 0 0-10.802.017L79.784 219.11A276.5 276.5 0 0 0 0 246.04L66.76 27.783c3.051-9.972 4.577-14.959 7.559-18.654a24.54 24.54 0 0 1 9.946-7.358C88.67 0 93.885 0 104.314 0h47.683c10.443 0 15.664 0 20.074 1.774a24.55 24.55 0 0 1 9.95 7.373"/><path fill="#ff5d01" d="M189.972 256.46c-10.952 9.364-32.812 15.751-57.992 15.751c-30.904 0-56.807-9.621-63.68-22.56c-2.458 7.415-3.009 15.903-3.009 21.324c0 0-1.619 26.623 16.898 45.14c0-9.615 7.795-17.41 17.41-17.41c16.48 0 16.46 14.378 16.446 26.043l-.001 1.041c0 17.705 10.82 32.883 26.21 39.28a35.7 35.7 0 0 1-3.588-15.647c0-16.886 9.913-23.173 21.435-30.48c9.167-5.814 19.353-12.274 26.372-25.232a47.6 47.6 0 0 0 5.742-22.735c0-5.06-.786-9.938-2.243-14.516"/></svg>
+                        <h3 class="about_title">Astro</h3>
+                        <p class="about_paragraph"></p>
+                    </article>
+                    <article class="about_icons">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="2.5em" height="2.5em" viewBox="0 0 128 128"><path fill="#f34f29" d="M124.737 58.378L69.621 3.264c-3.172-3.174-8.32-3.174-11.497 0L46.68 14.71l14.518 14.518c3.375-1.139 7.243-.375 9.932 2.314c2.703 2.706 3.461 6.607 2.294 9.993l13.992 13.993c3.385-1.167 7.292-.413 9.994 2.295c3.78 3.777 3.78 9.9 0 13.679a9.673 9.673 0 0 1-13.683 0a9.68 9.68 0 0 1-2.105-10.521L68.574 47.933l-.002 34.341a9.7 9.7 0 0 1 2.559 1.828c3.778 3.777 3.778 9.898 0 13.683c-3.779 3.777-9.904 3.777-13.679 0c-3.778-3.784-3.778-9.905 0-13.683a9.7 9.7 0 0 1 3.167-2.11V47.333a9.6 9.6 0 0 1-3.167-2.111c-2.862-2.86-3.551-7.06-2.083-10.576L41.056 20.333L3.264 58.123a8.133 8.133 0 0 0 0 11.5l55.117 55.114c3.174 3.174 8.32 3.174 11.499 0l54.858-54.858a8.135 8.135 0 0 0-.001-11.501"/></svg>
+                        <h3 class="about_title">Git</h3>
+                        <p class="about_paragraph"></p>
+                    </article>
+                </div>
             </div>
         </section>
+
+        
+
 
         <section class="questions" id="questions">
             <div class="container">
@@ -170,11 +153,9 @@
                             </h3>
 
                             <p class="questions_show">Como programador junior, mis habilidades más fuertes incluyen conocimientos
-                                 en lenguajes de programación como Html, Css, Java Script, Java y C++. También tengo experiencia en resolución de
+                                 en tecnologias como Html, Css, Java Script, Java, etc. También tengo experiencia en resolución de
                                   problemas y lógica, y soy capaz de trabajar en equipo y comunicarme efectivamente con otros miembros 
-                                  del equipo. Además, estoy interesado en aprender más sobre tecnologías emergentes como la inteligencia
-                                   artificial y el aprendizaje automático. Si estás buscando un programador junior entusiasta y dedicado,
-                                    ¡no dudes en contactarme!</p>
+                                  del equipo.</p>
                         </div>
                     </article>
 
@@ -209,12 +190,53 @@
                         </div>
                     </article>
                 </section>
+            </div>
+        </section>
+        <section class="questions_offer">
+            <h2 class="subtitle">Proyectos personales</h2>
+            
+            <div class="card_proyect" id="proyectos">
+                <div class="info_proyect">
+                    <h6>
+                        AGROPRICE
+                     </h6>
+                    <p>
+                        creación de una aplicación web desde cero, la cual tenia ciertas funcionalidades como mostrar unos productos y sus precios, enviar correos a los usuarios automáticamente etc.. Puedo decir que ha sido un viaje lleno de aprendizaje y desafíos gratificantes.
 
-                <section class="questions_offer">
-                    <h2 class="subtitle">Proyecto</h2>
-                    <p class="questions_copy">En el siguiente enlace redirecciona a unos de mis proyectos en el cual me he encargado de desarrollarlo desde 0</p>
-                    <a href="https://smyleface18.github.io/Caleb_192209/" class="cta">Click</a>
-                </section>
+                        Comencé por construir el backend utilizando FastAPI, un marco web de Python que me impresionó por su simplicidad y eficiencia. Definir rutas, manejar solicitudes HTTP y conectar con bases de datos se volvió fluido gracias a la estructura intuitiva de FastAPI. Además, su integración con Pydantic para la validación de datos me permitió mantener la integridad de mi API sin complicaciones.
+                        
+                        Luego, llegó el momento de dar vida al frontend. Aquí, Tailwind CSS se convirtió en mi aliado. Su enfoque basado en clases me permitió diseñar interfaces de usuario de manera rápida y elegante. Las utilidades de diseño responsivo de Tailwind facilitaron la adaptación de mi aplicación a diferentes dispositivos sin perder tiempo en ajustes manuales.
+                    </p>
+                </div>
+                <div class="box_container">
+                    <div class="swiper">
+
+                        <div class="swiper-wrapper">
+
+                          <div class="swiper-slide box">
+                            <img src="/imagenes/logo_agroprice_bg-blanco (4).png" alt="">
+                          </div>
+                          <div class="swiper-slide box">
+                            <img src="/imagenes/Captura de pantalla 2024-05-28 104626.png" alt="">
+                          </div>
+                          <div class="swiper-slide box">
+                            <img src="/imagenes/Captura de pantalla 2024-06-10 153406.png" alt="">
+                          </div>
+                          <div class="swiper-slide box">
+                            <img src="/imagenes/proyecto_card.png" alt="">
+                          </div>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                      
+
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                      
+
+                        <div class="swiper-scrollbar"></div>
+                      </div>
+                </div>
             </div>
         </section>
     </main>
@@ -224,27 +246,21 @@
             <nav class="nav nav--footer">
                 <h2 class="footer_title">Caleb Acosta Ortiz</h2>
                 <ul class="nav_link nav_link--footer">
-                    <!-- (li.nav_items>a.nav_links{Option})*4 -->
+
                     <li class="nav_items">
-                        <a href="#" class="nav_links">Option</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#" class="nav_links">Option</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#" class="nav_links">Option</a>
-                    </li>
-                    <li class="nav_items">
-                        <a href="#" class="nav_links">Option</a>
+                        <a href="https://github.com/smyleface18" class="nav_links">
+                            github
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12c0 5.303 3.438 9.8 8.205 11.385c.6.113.82-.258.82-.577c0-.285-.01-1.04-.015-2.04c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729c1.205.084 1.838 1.236 1.838 1.236c1.07 1.835 2.809 1.305 3.495.998c.108-.776.417-1.305.76-1.605c-2.665-.3-5.466-1.332-5.466-5.93c0-1.31.465-2.38 1.235-3.22c-.135-.303-.54-1.523.105-3.176c0 0 1.005-.322 3.3 1.23c.96-.267 1.98-.399 3-.405c1.02.006 2.04.138 3 .405c2.28-1.552 3.285-1.23 3.285-1.23c.645 1.653.24 2.873.12 3.176c.765.84 1.23 1.91 1.23 3.22c0 4.61-2.805 5.625-5.475 5.92c.42.36.81 1.096.81 2.22c0 1.606-.015 2.896-.015 3.286c0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                        </a>
                     </li>
                 </ul>
             </nav>
             <form class="footer_form">
-                <h2 class="footer_info">Suscribete</h2>
-                <!-- .footer_inputs>input:email.footer_input+input:submit.footer_submit -->
+                <h2 class="footer_info">Enviame un Gmail</h2>
+
                 <div class="footer_inputs">
-                    <input type="email" class="footer_input" placeholder="Escribe tu E-Mail">
-                    <input type="submit" value="Contáctanos" class="footer_submit">
+                   <p class="text_gmail">ca30850@gmail.com</p>
+                    <a class="footer_link" href="https://www.google.com/intl/es-419/gmail/about/" >Gmail</a>
                 </div>
             </form>
         </section>
@@ -258,7 +274,9 @@
         </section>
     </footer>
 
-
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/questions.js"></script>
 </body>

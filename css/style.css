@@ -17,6 +17,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
     padding: var(--padding-container);
+
 }
 
 .person{
@@ -37,7 +38,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../imagenes/ufpso.jpg');
+    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url('../imagenes/Dev-img.jpg');
     background-size: cover;
     clip-path: polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
     z-index: -1;
@@ -123,6 +124,7 @@ body{
 
 .about{
     text-align: center;
+    background-color: #e5e5f7;
 }
 
 .subtitle{
@@ -147,7 +149,7 @@ body{
 
 .about_icons{
     display: grid;
-    gap: 1em;
+    gap: 0.5em;
     justify-items: center;
     width: 260px;
     overflow: hidden;
@@ -161,7 +163,6 @@ body{
 /* options */
 
 .options{
-    background-color: #e5e5f7;
     background-image: linear-gradient(#444cf7 0.5px, transparente 0.5px), radial-gradient(#444cf7 0.5px, #e5e5f7 0.5px);
     background-size: cover;
     background-position: 0 0, 10px 10px;
@@ -189,66 +190,11 @@ body{
     display: block;
 }
 
-/* testimonys */
-
-.testimony{
-    background-color: #ffffff;
-}
-
-.testimony_container{
-    display: grid;
-    grid-template-columns: 50px 1fr 50px;
-    gap: 1em;
-    align-items: center;
-}
-
-.testimony_body{
-    display: grid;
-    grid-template-columns: 1fr max-content;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2em;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.testimony_body--show{
-    pointer-events: unset;
-    opacity: 1;
-    transition: opacity 1.5s ease-in-out;
-}
-
-.testimony_img{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% 30%;
-}
-
-.testimony_texts{
-    max-width: 700px;
-}
-
-.testimony_course{
-    background-color: royalblue;
-    color: #fff;
-    display: inline-block;
-    padding: 5px;
-}
-
-.testimony_arrow{
-    width: 90%;
-    cursor: pointer;
-}
-
 /* Questions */
 
 .questions{
     text-align: center;
-    background-color: #e5e5f7;
+    background-color: #ffffff;
 }
 
 .questions_container{
@@ -311,12 +257,80 @@ body{
     display: block;
 }
 
-.questions_copy{
-    width: 60%;
-    margin: 0 auto;
-    margin-bottom: 30px;
+
+
+/* Proyectos personales*/
+.questions_offer{
+    background-color: #e5e5f7;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card_proyect{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 50px;
 }
 
+
+.info_proyect  > h6 {
+    color: #1d293f;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.info_proyect{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+.box_container{
+    width: 100%;
+
+    overflow: hidden;
+}
+.swiper{
+    width: 100%;
+    height: 400px;
+    
+}
+.swiper-slide{
+    display: flex !important; 
+    justify-content: center;
+    align-items: center;
+}
+.swiper-button-prev, .swiper-button-next {
+    --swiper-theme-color: #e5e5f7;
+    background-color: #5454d4;
+    padding: 30px;
+    border-radius:100% ;
+
+}
+
+.box > img {
+    width: 70%;
+    height: 90%;
+
+
+    
+}
+
+@media( width < 1280px){
+    .card_proyect{
+        flex-direction: column;
+
+    }
+    .info_proyect{
+        width: 100%;
+    }
+}
 /* footer */
 
 .footer {
@@ -360,6 +374,7 @@ body{
     margin-top: 10px;
     display: flex;
     overflow: hidden;
+    text-align: center;
 }
 
 .footer_input{
@@ -374,10 +389,15 @@ body{
     margin-right: 16px;
 }
 
-.footer_submit{
+.footer_link{
+    
+    text-align: center;
+    text-decoration: none;
     margin-left: auto;
-    display: inline-block;
-    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
     padding: 0 20px;
     background-color: #2091f9;
     border: none;
@@ -403,4 +423,16 @@ body{
 
 .footer_img{
     width: 30px;
+}
+.footer_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text_gmail{
+    margin-top: 5px;
+    font-size: 18px;
+    margin-right: 15px;
+    color: #fff;
 }
