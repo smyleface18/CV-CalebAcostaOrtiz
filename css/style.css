@@ -119,6 +119,10 @@ body{
     padding: 13px 30px;
     border-radius: 32px;
 }
+.btn:hover{
+    background-color:#fff ;
+    color: #2091f9;
+}
 
 /* about */
 
