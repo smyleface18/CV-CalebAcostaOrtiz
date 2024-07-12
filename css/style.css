@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
+*::selection{
+    color:#e5e5f7 ;
+    background-color: #001a49;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -297,7 +302,6 @@ body{
 }
 .box_container{
     width: 100%;
-
     overflow: hidden;
 }
 .swiper{
@@ -327,6 +331,9 @@ body{
 }
 
 @media( width < 1280px){
+    .questions_offer{
+        padding: 20px;
+    }
     .card_proyect{
         flex-direction: column;
 
