@@ -202,11 +202,19 @@
                         AGROPRICE
                      </h6>
                     <p>
-                        creación de una aplicación web desde cero, la cual tenia ciertas funcionalidades como mostrar unos productos y sus precios, enviar correos a los usuarios automáticamente etc.. Puedo decir que ha sido un viaje lleno de aprendizaje y desafíos gratificantes.
+                        creación de una aplicación web desde cero, la cual tenia ciertas funcionalidades como mostrar unos productos
+                         y sus precios esta información es extraida automaticamente con web scraping de la pagina oficial de la central
+                          de abastos de bogota, es extraido el boletin tipo pdf con un request que el cual era activado con un cron job 
+                          cada 24 horas asi asegurando que la información obtenida es actualizada, este pdf es convertido a texto plano 
+                          con ayuda de pdf2 una libreria de python, luego se envia la información al frontend por medio de una petición 
+                          http asi mismo la información que era estraida diariamente es guardada en un archivo json para enviar esta 
+                          información al front y poder generar las graficas para visualizar la flutaciónes de los precios, tambien se 
+                          codifico un script para enviar correos a los usuarios automáticamente cuando un producto llegara a un preció 
+                          que ellos hubieran indicado anteriormente por ultimo para el frontend utilice js, htmt y tailwind, js para realizar la peticiones http (get y post) y graficar la información de los precios de los productos
+                          Observa el codigo en: 
+                          Pagina web: https://github.com/smyleface18/AGPRICE_BASE 
+                          API: https://github.com/smyleface18/api-agroprice-deploy-vercel
 
-                        Comencé por construir el backend utilizando FastAPI, un marco web de Python que me impresionó por su simplicidad y eficiencia. Definir rutas, manejar solicitudes HTTP y conectar con bases de datos se volvió fluido gracias a la estructura intuitiva de FastAPI. Además, su integración con Pydantic para la validación de datos me permitió mantener la integridad de mi API sin complicaciones.
-                        
-                        Luego, llegó el momento de dar vida al frontend. Aquí, Tailwind CSS se convirtió en mi aliado. Su enfoque basado en clases me permitió diseñar interfaces de usuario de manera rápida y elegante. Las utilidades de diseño responsivo de Tailwind facilitaron la adaptación de mi aplicación a diferentes dispositivos sin perder tiempo en ajustes manuales.
                     </p>
                 </div>
                 <div class="box_container">
