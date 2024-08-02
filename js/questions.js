@@ -19,16 +19,3 @@
         });
     });
 })();
-
-const button = document.querySelector(".btn-primary");
-
-button.addEventListener("click", e => {
-    const name = document.querySelector("#Name");
-    const LastName = document.querySelector("#LastName");
-    const Email = document.querySelector("#Email");
-    const Password = document.querySelector("#Password");
-    let data = {};
-    data.name = name.innerHTML
-    console.log(data.name)
-}
-);
