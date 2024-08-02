@@ -139,7 +139,7 @@ body{
 .subtitle{
     color: var(--color-title);
     font-size: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .about_paragraph{
@@ -199,6 +199,7 @@ body{
     display: block;
 }
 
+
 /* Questions */
 
 .questions{
@@ -210,7 +211,6 @@ body{
     display: grid;
     gap: 2em;
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 
 .questions_padding{
@@ -271,17 +271,19 @@ body{
 /* Proyectos personales*/
 .questions_offer{
     background-color: #e5e5f7;
-    padding: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom:100px ;
+    padding-top: 100px;
 }
+
 .card_proyect{
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    padding: 20px;
+    margin: 50px auto;
+    padding: 30px;
     border: solid 2px #5454D4;
     border-radius: 10px;
     -webkit-box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
@@ -295,7 +297,7 @@ body{
 }
 
 .info_proyect  > h6 {
-    color: #1d293f;
+    color: var(--color-title);
     font-size: 25px;
     text-align: center;
     width: 100%;
@@ -344,9 +346,6 @@ body{
 }
 
 @media( width < 1280px){
-    .questions_offer{
-        padding: 20px;
-    }
     .card_proyect{
         flex-direction: column;
 
@@ -459,7 +458,4 @@ body{
     font-size: 18px;
     margin-right: 15px;
     color: #fff;
-}
-.ss{
-    height: 100vw;
 }
