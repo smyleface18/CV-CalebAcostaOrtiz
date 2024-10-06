@@ -285,14 +285,14 @@ body{
     background-color: #6b6bcd;
     margin: 50px auto;
     padding: 30px;
-    border: solid 2px #000000;
+    border: solid 2px var(--padding-container);
     border-radius: 10px;
-    
     -webkit-box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
     -moz-box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
     box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
 }
-.card_project:hover{
+
+#head_project:hover{
     cursor: pointer;
 }
 .body_project{ 
