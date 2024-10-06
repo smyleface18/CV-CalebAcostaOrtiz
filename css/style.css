@@ -325,10 +325,12 @@ body{
 .box_container{
     width:100%;
     overflow: hidden;
+    
 }
 .swiper{
     width: 50%;
     height: 200px;
+
 }
 
 .swiper-slide{
@@ -337,6 +339,7 @@ body{
     align-items: center;
 }
 .swiper-button-prev, .swiper-button-next {
+    display: none;
     --swiper-theme-color: #e5e5f7;
     background-color: var(--color-title);
     padding: 30px;
