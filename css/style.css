@@ -278,32 +278,42 @@ body{
     padding-top: 100px;
 }
 
-.card_proyect{
+.card_project{
     width: 90%;
     display: flex;
     flex-direction: row;
+    background-color: #6b6bcd;
     margin: 50px auto;
     padding: 30px;
-    border: solid 2px #5454D4;
+    border: solid 2px #000000;
     border-radius: 10px;
+    
     -webkit-box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
     -moz-box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
     box-shadow: 7px 3px 30px 0px rgba(0,26,73,0.79);
 }
-.card_proyect:hover{
-    -webkit-box-shadow: inset 7px 3px 30px 0px rgba(0,26,73,0.79);
-    -moz-box-shadow: inset 7px 3px 30px 0px rgba(0,26,73,0.79);
-    box-shadow: inset 7px 3px 30px 0px rgba(0,26,73,0.79);
+.card_project:hover{
+    cursor: pointer;
+}
+.body_project{ 
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.none{
+    display: none;
+
 }
 
-.info_proyect  > h6 {
-    color: var(--color-title);
-    font-size: 25px;
+.title {
+    color: #e5e5f7;
+    font-size: 30px;
     text-align: center;
-    width: 100%;
-    padding-bottom: 10px;
 }
-.info_proyect{
+.info_project{
+    color:#e5e5f7 ;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -313,17 +323,14 @@ body{
 }
 
 .box_container{
-    width: 100%;
+    width:100%;
     overflow: hidden;
 }
 .swiper{
-    width: 100%;
-    height: 400px;
-    
+    width: 50%;
+    height: 200px;
 }
-.box > img{
-    object-fit: contain;
-}
+
 .swiper-slide{
     display: flex !important; 
     justify-content: center;
@@ -339,10 +346,7 @@ body{
 
 .box > img {
     width: 70%;
-    height: 90%;
-
-
-    
+    height: 90%;  
 }
 
 @media( width < 1280px){
