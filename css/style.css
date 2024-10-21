@@ -282,7 +282,7 @@ body{
     width: 90%;
     display: flex;
     flex-direction: row;
-    background-color: #6b6bcd;
+    background-image: linear-gradient(225deg, #e5e5f7 0, #9898ae 25%, #9b9bab 50%, #526589 75%, #001a49 100%);
     margin: 50px auto;
     padding: 30px;
     border: solid 2px var(--padding-container);
