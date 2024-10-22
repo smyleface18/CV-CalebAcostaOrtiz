@@ -14,7 +14,7 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-
+ /*
   const head_project =[...document.querySelectorAll("#head_project")];
   const body_project = [...document.querySelectorAll(".body_project")];
   const iconProject = [...document.querySelectorAll("#iconProject")];
@@ -28,6 +28,6 @@ const swiper = new Swiper('.swiper', {
       });
 
     }
-
+*/
 
 
